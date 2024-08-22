@@ -7,6 +7,15 @@ Autobahn is a small application that provides up-to-date data related to the Ger
 - Fetches real-time data from the German Autobahn API.
 - Displays information in an easy-to-read format.
 - Built using Python.
+- Designed following the MVC (Model-View-Controller) architecture.
+
+## Architecture
+
+The application follows the MVC (Model-View-Controller) structure:
+
+- **Model**: Handles the data retrieval and processing. It interacts with the German Autobahn API and manages the data structures used in the app.
+- **View**: Responsible for the user interface, built with Streamlit, to present the data to the user in a user-friendly format.
+- **Controller**: Acts as the intermediary between the Model and the View, handling user input, updating the View with new data from the Model, and ensuring that the data flow and application logic are properly maintained.
 
 ## Installation
 
