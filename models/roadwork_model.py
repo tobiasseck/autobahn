@@ -1,6 +1,5 @@
 import requests
 import streamlit as st
-import re
 
 BASE_URL = "https://verkehr.autobahn.de/o/autobahn/"
 
